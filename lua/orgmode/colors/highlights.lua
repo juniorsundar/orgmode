@@ -13,13 +13,13 @@ end
 function M.link_highlights()
   local links = {
     -- Headlines
-    ['@org.headline.level1'] = 'Title',
-    ['@org.headline.level2'] = 'Constant',
-    ['@org.headline.level3'] = 'Identifier',
-    ['@org.headline.level4'] = 'Statement',
-    ['@org.headline.level5'] = 'PreProc',
-    ['@org.headline.level6'] = 'Type',
-    ['@org.headline.level7'] = 'Special',
+    ['@org.headline.level1'] = 'PreProc',
+    ['@org.headline.level2'] = 'Label',
+    ['@org.headline.level3'] = 'Constant',
+    ['@org.headline.level4'] = 'String',
+    ['@org.headline.level5'] = 'Label',
+    ['@org.headline.level6'] = 'Special',
+    ['@org.headline.level7'] = 'Label',
     ['@org.headline.level8'] = 'String',
 
     ['@org.priority.highest'] = '@comment.error',
